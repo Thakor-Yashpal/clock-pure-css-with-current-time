@@ -1,0 +1,11 @@
+.clock
+	- for (var i = 0; i < 60; i++)
+		.block(data-num=i)
+	.divider
+
+.switch-theme
+	p Change theme
+	label.switch
+		input(type='checkbox' onchange='changeTheme(event)')
+		span.slider
+		
